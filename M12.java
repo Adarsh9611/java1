@@ -16,7 +16,7 @@ public class M12{
 		Scanner sc1=new Scanner(f1);
 		String name="";
 		String name_rev="";
-		Tools1 t1=new Tools1();
+		Tools t1=new Tools();
 		while(sc1.hasNext()){
 			name=sc1.nextLine();
 			name_rev=t1.reverse(name);
